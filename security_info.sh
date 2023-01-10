@@ -5,8 +5,7 @@
 
 #Comprobando privilegios SUID peligrosos (Checking dangerous SUID privileges)
 
-cd /
-find \-perm -4000 2>/dev/null
+find / -perm -4000 2>/dev/null
 
 
 
